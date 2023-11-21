@@ -14,7 +14,7 @@
 
 Dim _aliases_ as c
 _aliases_ = <<%txt%
-[PathAlias.ADB_Path]|C:\Users\Qendrim\Documents\GitHub\AlphaTrainingTask-QendrimSadrija\task_proj
+[PathAlias.ADB_Path]|C:\Users\Qendrim\Documents\GitHub\AlphaTrainingTask-QendrimSadrija\login
 %txt%
 
 'Creates a global collection called '_A5_Aliases' 
@@ -61,7 +61,7 @@ loadConnectionStrings(gv, _SSRS_ConnectionStrings, "SSRS")
 
 Dim _AlphaDAO_ConnectionStrings as c 
 _AlphaDAO_ConnectionStrings = <<%txt%
-AADemo-Northwind|Encrypted:3MLNR/D8BLa2BOcsjSrGjaXxKIGPYizrLrAjjczoQeOGI+8OHZ/NxEuFOiD63hOImW3VO9AMWcEPXwg8Esf9zG55P1l/ma6nuMSUFvaMJ5/bolGi3CgrLqtxZLhHCbWONDtjIyuuhuqMGe1tyBWPCsJmajedCQC/0B0DvONhosNDrJrs2l+ZTarILBqkMkBLfx9VmM9dAGrggodVMVAIpFASIS4+U5vXffZ27H/cX1e9YqibKzo7jEDfnMbG4cE4aaeemGmTXoQ=
+
 %txt%
 
 'Create a global collection called '_A5_AlphaDAO_ConnectionStrings'
@@ -109,7 +109,7 @@ DIM fileDownload.allowedFilenamePatterns as C = "*.xls*,*.pdf,*.jpg,*.jpeg,*.bmp
 DIM fileDownload.allowedFolderPatterns as C
 DIM fileDownload.blockedFilenamePatterns as C
 DIM reportServer as P
-DIM reportServer.disable as L = .T.
+DIM reportServer.disable as L
 DIM reportEvents as P
 DIM reportEvents.afterPrint as C
 DIM reportEvents.library as C
@@ -320,7 +320,7 @@ DIM federatedAuthentication.fieldmap as C
 DIM responseHeaders as P
 DIM responseHeaders.includeInsecureHeaders as L
 DIM responseHeaders.additionalHeaders as C
-DIM __token as C = "c8ec3c53a4634d95a9d487351bf5211d"
+DIM __token as C = "4d641109f48b4e68a541ef46a574d296"
 %txt%
 
 dim gv as p 
@@ -331,10 +331,10 @@ dim gv.__buildNumberExe__ as n
 dim gv.__buildNumberAddins__ as n 
 dim gv.__guid as c 
 dim gv.__A5PublishVersion as n 
-gv.__A5PublishTimestamp = 2023424221084245772
+gv.__A5PublishTimestamp = 2023505021085011426
 gv.__buildNumberExe__ = 8844
 gv.__buildNumberAddins__ = 5687
-gv.__guid = "705774e3-92eb-4fff-9555-c2a2ae9be731"
+gv.__guid = "c5d65951-04c7-4f4d-92d9-c6b92a826d49"
 gv.__control = <<%txtcontrol%
 hV7+2zUTjP0=
 %txtcontrol%
